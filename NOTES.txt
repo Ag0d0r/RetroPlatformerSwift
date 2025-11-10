@@ -1,0 +1,14 @@
+
+Quick notes
+-----------
+- Import PNGs to Assets.xcassets and name them exactly:
+  player, enemy, coin, tiles, bg_layer1, bg_layer2
+- level1.csv: 0 = empty, 1 = tile (uses tiles.png's first tile visually)
+- To add coins or powerups: add SKSpriteNode(imageNamed: "coin") and set name = "coin"
+- For better tile handling use Xcode's Tile Map editor or Tiled (tmx)
+
+Customization ideas
+-------------------
+- Replace textures with larger pixel-art / add animations (SKAction.animate with frames)
+- Add a UI layer via SKLabelNode for score and lives
+- Add sound effects with SKAction.playSoundFileNamed
